@@ -1,0 +1,20 @@
+#border {
+    border: 3px solid cyan;
+    background-color: green;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*
+    margin: Oben rechts unten links
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+    margin: oben/unten rechts/links
+
+
+*/

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline vs Block</title>
+
+    <style>
+        span {
+            background-color: green;
+        }
+
+        div {
+            background-color: red;
+            position: relative;
+        }
+
+        h1 {
+            background-color: blueviolet;
+            width: 20%;
+            margin: 0 auto;
+            text-align: center;
+            float: left;
+        }
+
+        h1:hover {
+            background-color: blue;
+        }
+
+        p:nth-child(6) {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- Inline-Element -->
+    <span>Inline</span>
+
+    <!-- Block-Element -->
+    <div>Block</div>
+
+    <section>
+        <h1>Hallo Welt!</h1>
+    </section>
+
+    <p>Eins</p>
+
+    <p>Zwei</p>
+    
+    <p>Drei</p>
+
+
+</body>
+</html>

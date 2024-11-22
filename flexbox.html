@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexboxen</title>
+
+    <style>
+        #blau {
+            background-color: #3e3eed;
+            display: flex;
+        }
+
+        .orange {
+            background-color: orangered;
+            padding: 10px;
+            width: 25px;
+            height: 25px;
+            margin: 20px;
+        }
+
+        @media screen and (max-width: 768px) and (min-width: 576px) {
+            #blau {
+                background-color: red;
+            }
+
+            .orange {
+                width: 50px;
+                border: 1px solid #3e3eed;
+
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div id="blau">
+
+        <div class="orange">Inhalt 1</div>
+
+        <div class="orange">Inhalt 2</div>
+
+        <div class="orange">Inhalt 3</div>
+        
+        <div class="orange">Inhalt 4</div>
+
+    </div>
+</body>
+</html>
